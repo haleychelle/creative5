@@ -1,0 +1,30 @@
+nohup: ignoring input
+[0mGET / [36m304 [0m5.206 ms - -[0m
+[0mGET /javascripts/app.js [36m304 [0m2.104 ms - -[0m
+[0mGET /main.css [36m304 [0m2.553 ms - -[0m
+[0mGET /pirhana.png [36m304 [0m1.054 ms - -[0m
+[0mGET /laughEmoji.png [36m304 [0m0.251 ms - -[0m
+[0mGET /eyerollEmoji.png [36m304 [0m0.196 ms - -[0m
+[0mGET /memes [32m200 [0m20.603 ms - 20378[0m
+(node:30732) DeprecationWarning: Mongoose: mpromise (mongoose's default promise library) is deprecated, plug in your own promise library instead: http://mongoosejs.com/docs/promises.html
+[0mPUT /memes/5a0e6a960ae6cf77add71875/upvote [32m200 [0m18.891 ms - 5308[0m
+[0mGET / [32m206 [0m3.889 ms - 971[0m
+[0mGET /eyerollEmoji.png [32m206 [0m3.985 ms - 4566[0m
+[0mGET /pirhana.png [32m206 [0m4.293 ms - 9000[0m
+[0mGET /laughEmoji.png [32m206 [0m4.341 ms - 9000[0m
+[0mGET /laughEmoji.png [32m206 [0m1.947 ms - 9000[0m
+[0mGET /eyerollEmoji.png [32m206 [0m2.087 ms - 4566[0m
+[0mGET /pirhana.png [32m206 [0m1.416 ms - 9000[0m
+[0mGET /pirhana.png [32m206 [0m3.546 ms - 9000[0m
+[0mGET /laughEmoji.png [32m206 [0m3.760 ms - 9000[0m
+[0mGET /eyerollEmoji.png [32m206 [0m4.277 ms - 4566[0m
+[0mGET /eyerollEmoji.png [32m206 [0m1.809 ms - 4566[0m
+[0mGET /pirhana.png [32m206 [0m1.440 ms - 9000[0m
+[0mGET /laughEmoji.png [32m206 [0m1.576 ms - 9000[0m
+[0mGET /pirhana.png [32m206 [0m3.687 ms - 9000[0m
+[0mGET /eyerollEmoji.png [32m206 [0m4.657 ms - 4566[0m
+[0mGET /laughEmoji.png [32m206 [0m3.785 ms - 9000[0m
+[0mGET /eyerollEmoji.png [32m200 [0m0.980 ms - 4566[0m
+[0mGET /pirhana.png [32m200 [0m1.100 ms - 11985[0m
+[0mGET /laughEmoji.png [32m200 [0m0.320 ms - 26128[0m
+[0mGET /pirhana.png [32m200 [0m0.567 ms - 11985[0m

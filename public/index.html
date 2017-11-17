@@ -1,0 +1,26 @@
+<html>
+<head>
+  <title> Battle of the Memes</title>
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js"></script>
+  <script src="javascripts/app.js"></script>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body ng-app="meme" ng-controller="MainCtrl">
+  <div id='div'>
+  <h1>Battle of the Memes <img src="pirhana.png" style="height:5%; width:5%;"/> </h1>
+  <hr/>
+  <h3>Add a Funnier Meme Than the Current Winner</h3>
+  <form ng-submit="addMeme()">
+    <input type="text" ng-model="formContent"></input>
+    <button type="submit">Add Meme</button>
+  </form>
+  <div ng-repeat="meme in memes | orderBy: '-upvotes'">
+  <span ng-click="incrementUpvotes(meme)"><img src="laughEmoji.png" class='emoji'/></span>
+  <span ng-click="decrementUpvotes(meme)"><img src="eyerollEmoji.png" class='emoji'/></span>
+  <img ng-src="{{meme.title}}">
+  laughs: {{meme.upvotes}}
+  <span ng-click="delete(meme)">---delete---</span>
+  </div>
+</div>
+</body>
+</html>
